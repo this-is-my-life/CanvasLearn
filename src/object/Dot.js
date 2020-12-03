@@ -21,8 +21,6 @@ class Dot {
     this.x = position.x + Math.cos(this.theta) * (this.baseT * this.t.value) // x 이동
     this.y = position.y + Math.sin(this.theta) * (this.baseT * this.t.value) // y 이동
 
-    console.log(this.x)
-
     ctx.beginPath() // 선을...
 
     ctx.lineWidth = this.r // 선 굵기 설정
