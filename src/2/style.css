@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+#render {
+  position: fixed;
+  z-index: -1;
+}
+
+#input {
+  display: block;
+  background-color: transparent;
+  width: 100vw;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  color: white
+}
+
+.examples {
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+}
